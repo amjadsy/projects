@@ -2,6 +2,9 @@ import numpy as np
 from math import *
 import matplotlib.pyplot as plt
 
+#Sample code for a basic Kalman filter, better at state estimation and for motion planning than an Alpha Beta filter.
+#Here I try to lay out the basic framework for creating a Kalman filter, including some of the necessary mathematical functions. 
+
 
 #Gaussian Function
 def gauss_fun(mu, sigma_sq, x):
